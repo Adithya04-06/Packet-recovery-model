@@ -1,0 +1,9 @@
+﻿venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+.ipynb_checkpoints/
+
+models/v2/cpu_best_epoch3_backup/
+models/v2/gpu_model/

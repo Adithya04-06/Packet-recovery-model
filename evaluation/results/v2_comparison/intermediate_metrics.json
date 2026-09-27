@@ -1,0 +1,21 @@
+[
+    {
+        "Loss Rate": "0%",
+        "Float Loss Rate": 0.0,
+        "Baseline Word Accuracy": 100.0,
+        "V1 Word Accuracy": 100.0,
+        "V2 Word Accuracy": 100.0,
+        "V1 vs Baseline Imp": 0.0,
+        "V2 vs Baseline Imp": 0.0,
+        "V1 vs V2 Imp": 0.0,
+        "Baseline Char Similarity": 100.0,
+        "V1 Char Similarity": 100.0,
+        "V2 Char Similarity": 100.0,
+        "Baseline Exact Match": 100.0,
+        "V1 Exact Match": 100.0,
+        "V2 Exact Match": 100.0,
+        "Baseline BLEU": 100.0,
+        "V1 BLEU": 100.0,
+        "V2 BLEU": 100.0
+    }
+]

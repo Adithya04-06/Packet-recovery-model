@@ -1,0 +1,121 @@
+{
+  "correct_examples": [
+    {
+      "original": "Hello, hey, i am waiting at the subway. Everything is fine here.",
+      "corrupted": "Hello, hey, i am waiting at the subway. Everything is fine <MISSING>",
+      "recovered": "Hello, hey, i am waiting at the subway. Everything is fine here."
+    },
+    {
+      "original": "The weather in Tokyo is cloudy. No, not yet.",
+      "corrupted": "The weather <MISSING> Tokyo is cloudy. <MISSING> yet.",
+      "recovered": "The weather in Tokyo is cloudy. No, not yet."
+    },
+    {
+      "original": "Please deliver the items to the hospital in Delhi. I am on my way.",
+      "corrupted": "Please deliver the items to the hospital in Delhi. I am on <MISSING>",
+      "recovered": "Please deliver the items to the hospital in Delhi. I am on my way."
+    },
+    {
+      "original": "Good morning, what time does the shuttle leave for new york? I am on my way.",
+      "corrupted": "Good morning, what time does the shuttle leave for <MISSING> york? I am on my way.",
+      "recovered": "Good morning, what time does the shuttle leave for new york? I am on my way."
+    },
+    {
+      "original": "Hey, please deliver the items to the office in singapore. Yes, I got it.",
+      "corrupted": "<MISSING> deliver the items to the office in singapore. <MISSING> I got it.",
+      "recovered": "Hey, please deliver the items to the office in singapore. Yes, I got it."
+    }
+  ],
+  "incorrect_examples": [
+    {
+      "original": "Good evening, i have reached the police station. No, not yet.",
+      "corrupted": "Good evening, i have reached the <MISSING> not yet.",
+      "recovered": "Good evening, i have reached the subway. No, not yet.",
+      "metrics": {
+        "exact_match_corrupted": false,
+        "exact_match_recovered": false,
+        "word_accuracy_corrupted": 0.5454545454545454,
+        "word_accuracy_recovered": 0.5454545454545454,
+        "char_similarity_corrupted": 0.7678571428571429,
+        "char_similarity_recovered": 0.8596491228070176,
+        "bleu_recovered": 0.5954165059120786,
+        "rougeL_recovered": 0.8571428571428572,
+        "improvement": 0.0,
+        "generated_length_chars": 53,
+        "generated_length_words": 10
+      }
+    },
+    {
+      "original": "The office in Tokyo is closed due to foggy.",
+      "corrupted": "The office <MISSING> is closed due to foggy.",
+      "recovered": "The office in Dubai is closed due to foggy.",
+      "metrics": {
+        "exact_match_corrupted": false,
+        "exact_match_recovered": false,
+        "word_accuracy_corrupted": 0.2222222222222222,
+        "word_accuracy_recovered": 0.8888888888888888,
+        "char_similarity_corrupted": 0.8045977011494253,
+        "char_similarity_recovered": 0.8837209302325582,
+        "bleu_recovered": 0.5969491792019646,
+        "rougeL_recovered": 0.8888888888888888,
+        "improvement": 0.6666666666666666,
+        "generated_length_chars": 43,
+        "generated_length_words": 9
+      }
+    },
+    {
+      "original": "The bus stand in Los Angeles is closed due to foggy. Maybe tomorrow.",
+      "corrupted": "The bus stand in Los Angeles is closed due to foggy. <MISSING>",
+      "recovered": "The bus stand in Los Angeles is closed due to foggy. No, not yet.",
+      "metrics": {
+        "exact_match_corrupted": false,
+        "exact_match_recovered": false,
+        "word_accuracy_corrupted": 0.8461538461538461,
+        "word_accuracy_recovered": 0.7857142857142857,
+        "char_similarity_corrupted": 0.8307692307692308,
+        "char_similarity_recovered": 0.8421052631578947,
+        "bleu_recovered": 0.7577395672414201,
+        "rougeL_recovered": 0.8148148148148148,
+        "improvement": -0.06043956043956045,
+        "generated_length_chars": 65,
+        "generated_length_words": 14
+      }
+    },
+    {
+      "original": "Hello, please deliver the items to the subway in dubai. Yes, I got it.",
+      "corrupted": "Hello, please deliver the items to the subway in <MISSING> Yes, I got it.",
+      "recovered": "Hello, please deliver the items to the subway in tokyo. Yes, I got it.",
+      "metrics": {
+        "exact_match_corrupted": false,
+        "exact_match_recovered": false,
+        "word_accuracy_corrupted": 0.9285714285714286,
+        "word_accuracy_recovered": 0.9285714285714286,
+        "char_similarity_corrupted": 0.8951048951048951,
+        "char_similarity_recovered": 0.9285714285714286,
+        "bleu_recovered": 0.7825422900366437,
+        "rougeL_recovered": 0.9285714285714286,
+        "improvement": 0.0,
+        "generated_length_chars": 70,
+        "generated_length_words": 14
+      }
+    },
+    {
+      "original": "Hey, can you book a shuttle to the clinic?",
+      "corrupted": "Hey, can you book a <MISSING> to the clinic?",
+      "recovered": "Hey, can you book a ferry to the clinic?",
+      "metrics": {
+        "exact_match_corrupted": false,
+        "exact_match_recovered": false,
+        "word_accuracy_corrupted": 0.8888888888888888,
+        "word_accuracy_recovered": 0.8888888888888888,
+        "char_similarity_corrupted": 0.813953488372093,
+        "char_similarity_recovered": 0.8780487804878049,
+        "bleu_recovered": 0.5969491792019646,
+        "rougeL_recovered": 0.8888888888888888,
+        "improvement": 0.0,
+        "generated_length_chars": 40,
+        "generated_length_words": 9
+      }
+    }
+  ]
+}

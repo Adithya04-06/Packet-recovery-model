@@ -1,0 +1,90 @@
+[
+    {
+        "Loss Rate": "0%",
+        "Float Loss Rate": 0.0,
+        "Baseline Word Accuracy": 100.0,
+        "ML Word Accuracy": 100.0,
+        "Baseline Char Similarity": 100.0,
+        "ML Char Similarity": 100.0,
+        "Exact Match": 100.0,
+        "BLEU": 100.0,
+        "ML Improvement": 0.0
+    },
+    {
+        "Loss Rate": "5%",
+        "Float Loss Rate": 0.05,
+        "Baseline Word Accuracy": 91.39990327697689,
+        "ML Word Accuracy": 88.8611696767474,
+        "Baseline Char Similarity": 89.45643657673496,
+        "ML Char Similarity": 96.53897738199244,
+        "Exact Match": 33.800000000000004,
+        "BLEU": 87.57415714783777,
+        "ML Improvement": -2.5387336002294925
+    },
+    {
+        "Loss Rate": "10%",
+        "Float Loss Rate": 0.1,
+        "Baseline Word Accuracy": 80.10052535072204,
+        "ML Word Accuracy": 81.54458247220202,
+        "Baseline Char Similarity": 88.1821840794972,
+        "ML Char Similarity": 95.59569701593361,
+        "Exact Match": 26.0,
+        "BLEU": 84.9873248915165,
+        "ML Improvement": 1.4440571214799802
+    },
+    {
+        "Loss Rate": "15%",
+        "Float Loss Rate": 0.15,
+        "Baseline Word Accuracy": 68.74890756630761,
+        "ML Word Accuracy": 71.27013305186668,
+        "Baseline Char Similarity": 86.41193438249873,
+        "ML Char Similarity": 94.1393663325687,
+        "Exact Match": 20.200000000000003,
+        "BLEU": 80.24656960593222,
+        "ML Improvement": 2.5212254855590754
+    },
+    {
+        "Loss Rate": "20%",
+        "Float Loss Rate": 0.2,
+        "Baseline Word Accuracy": 56.217754889517025,
+        "ML Word Accuracy": 63.73686873032164,
+        "Baseline Char Similarity": 83.28346723683634,
+        "ML Char Similarity": 92.37066289931953,
+        "Exact Match": 16.400000000000002,
+        "BLEU": 74.78210796369387,
+        "ML Improvement": 7.519113840804614
+    },
+    {
+        "Loss Rate": "25%",
+        "Float Loss Rate": 0.25,
+        "Baseline Word Accuracy": 46.61474559157139,
+        "ML Word Accuracy": 52.79293978726882,
+        "Baseline Char Similarity": 79.1655980887663,
+        "ML Char Similarity": 89.22638201725397,
+        "Exact Match": 10.6,
+        "BLEU": 66.78336876216174,
+        "ML Improvement": 6.1781941956974284
+    },
+    {
+        "Loss Rate": "30%",
+        "Float Loss Rate": 0.3,
+        "Baseline Word Accuracy": 41.60871250094863,
+        "ML Word Accuracy": 45.46814105667761,
+        "Baseline Char Similarity": 76.15993254702389,
+        "ML Char Similarity": 86.4504483267612,
+        "Exact Match": 7.199999999999999,
+        "BLEU": 59.058055334832495,
+        "ML Improvement": 3.859428555728983
+    },
+    {
+        "Loss Rate": "40%",
+        "Float Loss Rate": 0.4,
+        "Baseline Word Accuracy": 26.136405336392453,
+        "ML Word Accuracy": 34.20251330640326,
+        "Baseline Char Similarity": 67.88572221907016,
+        "ML Char Similarity": 79.90108605843982,
+        "Exact Match": 3.0,
+        "BLEU": 43.684942831118384,
+        "ML Improvement": 8.066107970010805
+    }
+]
